@@ -1,0 +1,52 @@
+    body {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(0, 128, 111);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .main {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: rgb(0, 128, 111);
+        /* border-radius: 50; */
+    }
+    
+    .main::before {
+        content: "";
+        width: 175px;
+        height: 3px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: white;
+        top: 20px;
+        left: 80px;
+        float: left;
+    }
+    
+    .main::after {
+        content: "";
+        width: 175px;
+        height: 3px;
+        position: absolute;
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: white;
+        top: 20px;
+        right: 80px;
+        float: left;
+    }
